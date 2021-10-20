@@ -30,7 +30,7 @@ nav {
 }
 
 .logo {
-  font-size: 2rem;
+  font-size: 24px;
   color: white;
 }
 
@@ -96,16 +96,16 @@ section:nth-of-type(2n) {
 }
 @media only screen and (max-width: 768px) {
   .intro {
-    flex-flow: row;
+    flex-flow: row wrap;
   }
   .intro-text {
   margin-bottom: 112px;
   width: 100%;
 }
 
-.intro-img {
-  width: 100%;
-}
+  .intro-img {
+    width: 100%;
+  }
 }
 
 .intro-text {
@@ -131,7 +131,7 @@ img {
 
 h1 {
   font-family: greycliff-bold;
-  font-size: 4.2rem;
+  font-size: 64px;
   line-height: 1.2;
   display: block;
   color: white;
@@ -141,7 +141,7 @@ h1 {
 
 p {
   font-family: greycliff-medium;
-  font-size: 1.3rem;
+  font-size: 20px;
   line-height: 1.5;
   font-weight: 500;
   color: #CCCCCC;
