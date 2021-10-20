@@ -66,7 +66,7 @@ button {
   border: 1px solid white;
   border-radius: 16px;
   color: white;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: greycliff-medium;
 }
 
@@ -90,10 +90,9 @@ section:nth-of-type(2n) {
   align-items: flex-end;
 }
 
-.half {
+.column {
   display: flex;
   flex-direction: column;
-  width: 50%;
 }
 
 .intro {
@@ -119,6 +118,7 @@ h1 {
   display: block;
   color: white;
   font-weight: 300;
+  margin-bottom: 32px;
 }
 
 p {
@@ -127,6 +127,7 @@ p {
   line-height: 1.5;
   font-weight: 500;
   color: #CCCCCC;
+  margin-bottom: 32px;
 }
 
 
