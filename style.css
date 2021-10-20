@@ -146,31 +146,42 @@ footer {
 
 @media only screen and (max-width: 768px) {
 
+  .logo {
+    font-size: 18px;
+  }
+
   h1 {
     font-size: 32px;
   }
 
   p {
-    font-size: 16px;
-    margin-bottom: 16px;
+    font-size: 18px;
+    margin-bottom: 8px;
   }
 
   .intro {
-    flex-flow: row wrap;
+    padding-top: 80px;
+    display: block;
+    position: relative;
+    z-index: 1;
   }
 
   .intro-text {
-    margin-top: 40px;
     margin-bottom: 0px;
     width: 100%;
+    height: 100%;
   }
 
   .intro-img {
-    width: 50%;
+
   }
 
   .intro-img img {
-    justify-content: right;
+    position: absolute;
+    right: -70px;
+    bottom: 0px;
+    z-index: -1;
+    width: 200px;
   }
 
 }
