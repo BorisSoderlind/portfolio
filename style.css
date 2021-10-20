@@ -239,5 +239,10 @@ footer {
     width: 200px;
   }
 
+  .work .case a {
+    display: block;
+    width: 100%;
+  }
+
 }
 
