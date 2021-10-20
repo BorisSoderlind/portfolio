@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box; 
+}
+
+@font-face {
+  font-family: "greycliff-bold";
+  src: url("fonts/GreycliffCF-Bold.woff2");
+}
+
+@font-face {
+  font-family: "greycliff-medium";
+  src: url("fonts/GreycliffCF-Medium.woff2");
+}
+
+body {
+  margin: 0; 
+  font-weight: 500;
+  font-family: 'HelveticaNeue';
+  background-color: #000000;
+  position: relative;
+}
+
+nav {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 7%;
+}
+
+.logo {
+  font-size: 24px;
+  color: white;
+}
+
+.navlinks a {
+  padding-left: 40px;
+
+}
+
+a {
+  font-family: greycliff-medium;
+  color: #cccccc;
+  text-decoration: none;
+
+}
+
+a.active {
+  color: #ffffff;
+}
+
+a:hover {
+    color: white;
+  }
+
+li {
+  font-family: greycliff-medium;
+  display: inline;
+}
+
+button {
+  height: 56px;
+  width: 224px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 16px;
+  color: white;
+  font-size: 14px;
+  font-weight: greycliff-medium;
+}
+
+section {
+  width: 100%;
+  padding: 0 7%;
+  display: flex;
+  margin: 0;
+  max-width: none;
+  background-color: #000000;
+  height: 100vh;
+}
+
+section:nth-of-type(2n) {
+      background-color: #333333;
+    }
+
+.hero {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-end;
+}
+
+.half {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.intro {
+  margin-bottom: 112px;
+}
+
+.second {
+
+}
+
+.work {
+
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  font-family: greycliff-bold;
+  font-size: 64px;
+  line-height: 1.2;
+  display: block;
+  color: white;
+  font-weight: 300;
+}
+
+p {
+  font-family: greycliff-medium;
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 500;
+  color: #CCCCCC;
+}
+
+
+footer {
+  padding: 1% 5%;
+  text-align:center;
+  background-color: #373B44;
+  color: white;
+}
