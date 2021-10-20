@@ -221,7 +221,7 @@ footer {
 
   .intro-img img {
     position: absolute;
-    right: -70px;
+    right: 0px;
     bottom: 0px;
     z-index: -1;
     width: 200px;
