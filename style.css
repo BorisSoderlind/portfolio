@@ -34,6 +34,10 @@ nav {
   color: white;
 }
 
+.navchat {
+  display: none;
+}
+
 .navlinks a {
   padding-left: 40px;
 
@@ -200,6 +204,14 @@ footer {
   p {
     font-size: 18px;
     margin-bottom: 8px;
+  }
+
+  .navlinks {
+    display: none;
+  }
+
+  .navchat {
+    display: flex;
   }
 
   .intro {
