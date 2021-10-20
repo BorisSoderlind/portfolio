@@ -166,7 +166,11 @@ footer {
   }
 
   .intro-img {
-    width: 100%;
+    width: 50%;
+  }
+
+  .intro-img img {
+    justify-content: right;
   }
 
 }
