@@ -91,6 +91,7 @@ section {
   margin: 0;
   max-width: none;
   background-color: #000000;
+  z-index: 1;
 }
 
 section:nth-of-type(2n) {
@@ -123,11 +124,13 @@ section:nth-of-type(2n) {
   justify-content: space-between;
   flex-wrap: nowrap;
   align-items: center;
+  z-index: 0;
 }
 
 .second img {
   max-width: 524px;
   width: 100%;
+  z-index: -1;
 }
 
 .work {
@@ -246,3 +249,13 @@ footer {
 
 }
 
+@media only screen and (max-width: 1100px) {
+
+  h1 {
+    font-size: 48px;
+  }
+
+  h1.largetitle {
+    font-size: 72px;
+  }
+}
